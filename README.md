@@ -59,7 +59,7 @@ The training set is 187,681 snapshots from 4,122 complete division cycles of *E.
 appears on both sides: 159,835 training and 27,846 held-out snapshots, 3,504 and 618 cycles.
 
 The prepared dataset is 250 MB and is not in this repository. `scripts/prepare_dataset.py` builds
-it from the single-cell arrays of Papagiannakis *et al.*, *eLife* **14**, RP104276 (2025); point
+it from the single-cell arrays of Papagiannakis *et al.*, *eLife* **14**, RP104276 (2025), BioImage Archive (S-BIAD1658); point
 `--data-root` at that dataset and `--out` at where you want the `.npz`. It stores four channels —
 the two linescans plus two nucleoid-position channels, one bump per segmented nucleoid and one at
 their median — so that adding a real marker channel later (the planned ParB-BFP/*parS* *oriC*
