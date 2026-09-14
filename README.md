@@ -102,15 +102,6 @@ S = scalar_inputs(d, ck)
 Or skip the encoder entirely: `models/latents_L8s01raw2.npz` holds the 8 latent means and
 standard deviations for all 187,681 snapshots, in dataset order.
 
-## The notebook
-
-[`notebooks/bVAE_report_L8s01raw2.ipynb`](notebooks/bVAE_report_L8s01raw2.ipynb) is a line-by-line
-account of the model: the data, the input representation, every layer, the loss and the one fixed
-number that makes it work, the training loop, how the latent axes are ordered and labelled, the
-growth law found without supervision, reconstructions and traversals, the random-forest read-out
-and its permutation importances, pole identity and its recovery, nucleoid position, and the
-post-processing. It carries the figures for the `L8s01raw2` model in `notebooks/figures/`;
-the figures for the other variants are not included here.
 
 ## Contents
 
