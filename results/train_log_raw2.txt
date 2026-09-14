@@ -1,0 +1,8 @@
+[L8s01raw2] zdim=8 channels=2 scalars=[length, log RplA, log HupA] sigma_s FIXED 0.1 train=159,835 val=27,846 device=mps
+[L8s01raw2] ep   1 val_elbo    -14.39 KL   7.85 scalar RMSE (SD units) 0.198 0.170 0.199
+[L8s01raw2] ep  10 val_elbo   -264.58 KL  10.83 scalar RMSE (SD units) 0.136 0.137 0.139
+[L8s01raw2] ep  20 val_elbo   -372.68 KL  17.01 scalar RMSE (SD units) 0.232 0.192 0.192
+[L8s01raw2] ep  30 val_elbo   -373.90 KL  17.68 scalar RMSE (SD units) 0.257 0.220 0.213
+[L8s01raw2] ep  40 val_elbo   -373.03 KL  17.86 scalar RMSE (SD units) 0.262 0.228 0.220
+[L8s01raw2] latent SD: [0.99  1.033 1.006 1.016 1.023 0.993 0.99  0.997]
+[L8s01raw2] saved vae_L8s01raw2.pt and latents_L8s01raw2.npz
